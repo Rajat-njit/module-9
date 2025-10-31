@@ -68,8 +68,8 @@ This project demonstrates a comprehensive understanding of containerized applica
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/rajatpednekar/assignment_9_is601.git
-   cd assignment_9_is601
+   git clone https://github.com/rajatpednekar/assignment_9.git
+   cd assignment_9
    ```
 
 2. **Start all services**
