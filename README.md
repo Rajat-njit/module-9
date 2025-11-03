@@ -22,13 +22,13 @@ This project demonstrates a comprehensive understanding of containerized applica
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                Docker Compose Network                │
-│                                                      │
-│  ┌──────────────┐  ┌──────────────┐  ┌───────────┐ │
-│  │   FastAPI    │  │  PostgreSQL  │  │  pgAdmin  │ │
-│  │  Container   │  │   Container  │  │ Container │ │
-│  │  Port: 8000  │  │  Port: 5432  │  │Port: 5050 │ │
-│  └──────────────┘  └──────────────┘  └───────────┘ │
+│                Docker Compose Network               │
+│                                                     │
+│  ┌──────────────┐  ┌──────────────┐  ┌───────────┐  │
+│  │   FastAPI    │  │  PostgreSQL  │  │  pgAdmin  │  │
+│  │  Container   │  │   Container  │  │ Container │  │
+│  │  Port: 8000  │  │  Port: 5432  │  │Port: 5050 │  │
+│  └──────────────┘  └──────────────┘  └───────────┘  │
 │         │                  │                │       │
 │         └──────────────────┴────────────────┘       │
 │              app-network (bridge)                   │
